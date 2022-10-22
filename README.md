@@ -4,9 +4,11 @@ This is a simple example of using Terraform in DigitalOcean.
 
 The file with the Terraform variables `terraform.tfvars` must be created, and declared the following variables:
 
+```
 do_token     = ""
 ssh_key_name = ""
 region       = ""
+```
 
 Since, `do token` is the DigitalOcean API access token, `ssh_key_name` is the name of the ssh key configured to access the resource and `region` is the region where the resources must be created.
 
